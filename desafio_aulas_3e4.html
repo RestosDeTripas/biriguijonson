@@ -7,27 +7,35 @@
 <!-- Tailwind CSS via Play CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 min-h-screen font-sans antialiased flex items-center
-justify-center p-4">
-<!-- INÍCIO DO CARD (Aplique aqui max-w, bg, border, rounded, shadow e p) -->
-<div class="">
-<!-- Container de Layout (Aplique aqui flex-col, md:flex, gap) -->
- <div class="">
-<!-- Avatar (Área do Círculo) -->
-<div class="">
-JS
+<body class="bg-slate-100 min-h-screen font-sans antialiased flex items-center justify-center p-4">
+
+<!-- INÍCIO DO CARD -->
+<div class="max-w-lg w-full bg-white border border-gray-200 rounded-xl shadow-md p-6 sm:p-8">
+  
+  <!-- Container de Layout -->
+  <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+    
+    <!-- Avatar (Área do Círculo) -->
+    <div class="w-24 h-24 shrink-0 rounded-full bg-[#0a66c2] text-white flex items-center justify-center text-4xl font-semibold shadow-sm">
+      JS
+    </div>
+    
+    <!-- Informações do Depoimento -->
+    <div class="flex flex-col items-center md:items-start text-center md:text-left w-full">
+      <span class="text-sm font-semibold text-[#0a66c2] uppercase tracking-wide mb-1">Desenvolvedor Front-end</span>
+      <h1 class="text-2xl font-bold text-gray-900">João Silva</h1>
+      
+      <p class="mt-3 text-gray-600 leading-relaxed text-sm">
+        "Bora que bora eu amo programar programas"
+      </p>
+      
+      <button class="mt-5 w-full md:w-auto px-6 py-2 bg-[#0a66c2] hover:bg-[#004182] text-white font-semibold rounded-full transition-colors duration-200">
+        Ver Perfil
+      </button>
+    </div>
+    
+  </div>
 </div>
-<!-- Informações do Depoimento -->
-<div class="">
-<span class="">Desenvolvedor Front-end</span>
-<h1 class="">João Silva</h1>
-<p class="">"O segredo de uma interface incrível não está nas cores, mas
-no domínio absoluto do espaçamento e da hierarquia visual."</p>
-<button class="">
-Ver Perfil
-</button>
-</div>
-</div>
-</div>
+
 </body>
 </html>
